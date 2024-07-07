@@ -5,7 +5,9 @@
     font-style: normal;
     font-variation-settings:"wdth" 100;
   }
-  
+  .all-bg{
+    background-color: #FFF8F3;
+  }
 /* ==================== nav part start==================== */
 /* ============ common color start =============== */
 .bark-2{
@@ -17,6 +19,16 @@
     color: #fff;
     border-radius: 5px;
     border: none;
+}
+.about-section-1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.about-section-2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
 }
 /* ----------------- common color end */
 .nav-title{
@@ -52,7 +64,6 @@ header{
     background:url(./images/developer.png),url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    padding: 38px 0px 25px 24px;
 }
 .banner{
     display: flex;
@@ -63,7 +74,7 @@ header{
     width: 580px;
     height: 350px;
 }
-.banner-text h1{
+.banner-text h4{
     font-size: 45px;
     font-weight: 600;
 }
@@ -71,14 +82,35 @@ header{
     font-size: 85px;
     font-weight: 700;
     color: #181818;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 .banner-text p{
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+   
 
 }
 .banner-text img{
     width: 580px;
 }
-
+/* main section start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.adout{
+    border-radius: 10px;
+    padding: 130px 156px;
+    text-align: center;
+}
+.item-description{
+    font-weight:bold;
+    font-size: 20px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
